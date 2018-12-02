@@ -1,0 +1,15 @@
+Package: WongEllisFinalProject
+Type: Package
+Title: Image Classification Using Kmeans
+Version: 1.0
+Date: 2018-12-01
+Author: Dorothy Ellis and Kenny Wong
+Maintainer: Dorothy Ellis <dorothy.ellis@ufl.edu>
+Description: This package takes any url to a jpg as an input, performs kmeans clustering, and writes the image to a file next to the original image.
+License: GPL (>= 2)
+Imports: purrr,ggplot2,jpeg,gridExtra,cluster
+LinkingTo: Rcpp
+RoxygenNote: 6.1.0
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
